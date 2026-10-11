@@ -1,0 +1,33 @@
+[2026-10-10 10:56:08 UTC] [bell-test] 1,024 shots per setting; 5,120 total requested measurements | output: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/bell_20261010T105608Z-639236
+[2026-10-10 10:56:08 UTC] [bell-test] [submitting] ZZ | setting 1/5
+[2026-10-10 10:56:08 UTC] [zeus] [preprocessing] ZZ | admission | Race eligible representations; retain first completed state for all shots
+[2026-10-10 10:56:10 UTC] [zeus] [executing] ZZ | execution finished between status polls | 1,024/1,024 shots completed | exec 0.000376s (max worker)
+[2026-10-10 10:56:10 UTC] [zeus] [aggregation] ZZ | 1,024/1,024 shots completed | exec 0.000376s (max worker) | workers ready 1/1
+[2026-10-10 10:56:10 UTC] [zeus] [completed] ZZ | 1,024/1,024 shots completed
+[2026-10-10 10:56:10 UTC] [bell-test] [received] ZZ | counts {'00': 520, '11': 504} | E=1.000000
+[2026-10-10 10:56:10 UTC] [bell-test] [submitting] A0B0 | setting 2/5
+[2026-10-10 10:56:10 UTC] [zeus] [preprocessing] A0B0 | admission | Race eligible representations; retain first completed state for all shots
+[2026-10-10 10:56:12 UTC] [zeus] [executing] A0B0 | execution finished between status polls | 1,024/1,024 shots completed | exec 0.000394s (max worker)
+[2026-10-10 10:56:12 UTC] [zeus] [aggregation] A0B0 | 1,024/1,024 shots completed | exec 0.000394s (max worker) | workers ready 1/1
+[2026-10-10 10:56:12 UTC] [zeus] [completed] A0B0 | 1,024/1,024 shots completed
+[2026-10-10 10:56:12 UTC] [bell-test] [received] A0B0 | counts {'00': 430, '01': 76, '10': 89, '11': 429} | E=0.677734
+[2026-10-10 10:56:12 UTC] [bell-test] [submitting] A0B1 | setting 3/5
+[2026-10-10 10:56:12 UTC] [zeus] [preprocessing] A0B1 | admission | Race eligible representations; retain first completed state for all shots
+[2026-10-10 10:56:14 UTC] [zeus] [executing] A0B1 | execution finished between status polls | 1,024/1,024 shots completed | exec 0.000401s (max worker)
+[2026-10-10 10:56:14 UTC] [zeus] [aggregation] A0B1 | 1,024/1,024 shots completed | exec 0.000401s (max worker) | workers ready 1/1
+[2026-10-10 10:56:14 UTC] [zeus] [completed] A0B1 | 1,024/1,024 shots completed
+[2026-10-10 10:56:14 UTC] [bell-test] [received] A0B1 | counts {'00': 441, '01': 86, '10': 73, '11': 424} | E=0.689453
+[2026-10-10 10:56:14 UTC] [bell-test] [submitting] A1B0 | setting 4/5
+[2026-10-10 10:56:14 UTC] [zeus] [preprocessing] A1B0 | admission | Race eligible representations; retain first completed state for all shots
+[2026-10-10 10:56:16 UTC] [zeus] [executing] A1B0 | execution finished between status polls | 1,024/1,024 shots completed | exec 0.000394s (max worker)
+[2026-10-10 10:56:16 UTC] [zeus] [aggregation] A1B0 | 1,024/1,024 shots completed | exec 0.000394s (max worker) | workers ready 1/1
+[2026-10-10 10:56:16 UTC] [zeus] [completed] A1B0 | 1,024/1,024 shots completed
+[2026-10-10 10:56:16 UTC] [bell-test] [received] A1B0 | counts {'00': 420, '01': 76, '10': 73, '11': 455} | E=0.708984
+[2026-10-10 10:56:16 UTC] [bell-test] [submitting] A1B1 | setting 5/5
+[2026-10-10 10:56:16 UTC] [zeus] [preprocessing] A1B1 | admission | Race eligible representations; retain first completed state for all shots
+[2026-10-10 10:56:18 UTC] [zeus] [executing] A1B1 | execution finished between status polls | 1,024/1,024 shots completed | exec 0.000398s (max worker)
+[2026-10-10 10:56:18 UTC] [zeus] [aggregation] A1B1 | 1,024/1,024 shots completed | exec 0.000398s (max worker) | workers ready 1/1
+[2026-10-10 10:56:18 UTC] [zeus] [completed] A1B1 | 1,024/1,024 shots completed
+[2026-10-10 10:56:18 UTC] [bell-test] [received] A1B1 | counts {'00': 72, '01': 435, '10': 442, '11': 75} | E=-0.712891
+[2026-10-10 10:56:19 UTC] [bell-test] S=2.789062 ± 0.044814 SE
+[2026-10-10 10:56:19 UTC] [bell-test] Plots: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/bell_20261010T105608Z-639236/bell_test.png and /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/bell_20261010T105608Z-639236/bell_test.pdf
