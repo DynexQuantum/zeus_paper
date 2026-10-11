@@ -1,0 +1,164 @@
+[2026-10-11 09:25:32 UTC] [shor] [start] 11 integers | 10 attempts per integer | results: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108
+[2026-10-11 09:25:32 UTC] [shor] [circuit ready] shor_8bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:32 UTC] [shor] [circuit] shor_8bit | 28 qubits | 27,274 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_8bit/shor_143.qasm
+[2026-10-11 09:25:32 UTC] [shor] [submitting] shor_8bit | 10 attempts | 0s
+[2026-10-11 09:25:32 UTC] [zeus] [preprocessing] shor_8bit | 28 qubits | 27,274 gates | 0s
+[2026-10-11 09:25:34 UTC] [zeus] [executing] shor_8bit | 10 shots completed | 2s
+[2026-10-11 09:25:34 UTC] [zeus] [aggregation] shor_8bit | 10 shots completed | 2s
+[2026-10-11 09:25:34 UTC] [zeus] [completed] shor_8bit | 10 shots completed | execution 188.574 ms | 2s
+[2026-10-11 09:25:34 UTC] [shor] [factors] shor_8bit | 11 × 13 = 143
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 8 | 143 | 28 | 27274 | 1 | 188.574 | — | yes |
+
+[2026-10-11 09:25:34 UTC] [shor] [circuit ready] shor_16bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:34 UTC] [shor] [circuit] shor_16bit | 52 qubits | 165,623 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_16bit/shor_49447.qasm
+[2026-10-11 09:25:34 UTC] [shor] [submitting] shor_16bit | 10 attempts | 0s
+[2026-10-11 09:25:34 UTC] [zeus] [preprocessing] shor_16bit | 52 qubits | 165,623 gates | 0s
+[2026-10-11 09:25:36 UTC] [zeus] [executing] shor_16bit | 10 shots completed | 2s
+[2026-10-11 09:25:36 UTC] [zeus] [aggregation] shor_16bit | 10 shots completed | 2s
+[2026-10-11 09:25:36 UTC] [zeus] [completed] shor_16bit | 10 shots completed | execution 239.307 ms | 2s
+[2026-10-11 09:25:36 UTC] [shor] [factors] shor_16bit | 197 × 251 = 49447
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 16 | 49447 | 52 | 165623 | 1 | 239.307 | — | yes |
+
+[2026-10-11 09:25:36 UTC] [shor] [circuit ready] shor_24bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:36 UTC] [shor] [circuit] shor_24bit | 76 qubits | 670,739 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_24bit/shor_13423807.qasm
+[2026-10-11 09:25:36 UTC] [shor] [submitting] shor_24bit | 10 attempts | 0s
+[2026-10-11 09:25:36 UTC] [zeus] [preprocessing] shor_24bit | 76 qubits | 670,739 gates | 0s
+[2026-10-11 09:25:37 UTC] [zeus] [executing] shor_24bit | 10 shots completed | 2s
+[2026-10-11 09:25:38 UTC] [zeus] [aggregation] shor_24bit | 10 shots completed | 2s
+[2026-10-11 09:25:38 UTC] [zeus] [completed] shor_24bit | 10 shots completed | execution 553.336 ms | 2s
+[2026-10-11 09:25:38 UTC] [shor] [factors] shor_24bit | 3631 × 3697 = 13423807
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 24 | 13423807 | 76 | 670739 | 1 | 553.336 | — | yes |
+
+[2026-10-11 09:25:38 UTC] [shor] [circuit ready] shor_32bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:38 UTC] [shor] [circuit] shor_32bit | 100 qubits | 1,690,447 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_32bit/shor_3108758101.qasm
+[2026-10-11 09:25:38 UTC] [shor] [submitting] shor_32bit | 10 attempts | 0s
+[2026-10-11 09:25:38 UTC] [zeus] [preprocessing] shor_32bit | 100 qubits | 1,690,447 gates | 0s
+[2026-10-11 09:25:40 UTC] [zeus] [executing] shor_32bit | 10 shots completed | 2s
+[2026-10-11 09:25:40 UTC] [zeus] [aggregation] shor_32bit | 10 shots completed | 2s
+[2026-10-11 09:25:40 UTC] [zeus] [completed] shor_32bit | 10 shots completed | execution 552.622 ms | 2s
+[2026-10-11 09:25:40 UTC] [shor] [factors] shor_32bit | 49891 × 62311 = 3108758101
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 32 | 3108758101 | 100 | 1690447 | 1 | 552.622 | — | yes |
+
+[2026-10-11 09:25:40 UTC] [shor] [circuit ready] shor_40bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:40 UTC] [shor] [circuit] shor_40bit | 124 qubits | 4,951,487 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_40bit/shor_827818182343.qasm
+[2026-10-11 09:25:40 UTC] [shor] [submitting] shor_40bit | 10 attempts | 0s
+[2026-10-11 09:25:40 UTC] [zeus] [preprocessing] shor_40bit | 124 qubits | 4,951,487 gates | 0s
+[2026-10-11 09:25:42 UTC] [zeus] [executing] shor_40bit | 10 shots completed | 2s
+[2026-10-11 09:25:43 UTC] [zeus] [aggregation] shor_40bit | 10 shots completed | 3s
+[2026-10-11 09:25:43 UTC] [zeus] [completed] shor_40bit | 10 shots completed | execution 502.102 ms | 3s
+[2026-10-11 09:25:43 UTC] [shor] [factors] shor_40bit | 790169 × 1047647 = 827818182343
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 40 | 827818182343 | 124 | 4951487 | 1 | 502.102 | — | yes |
+
+[2026-10-11 09:25:43 UTC] [shor] [circuit ready] shor_48bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:43 UTC] [shor] [circuit] shor_48bit | 148 qubits | 8,242,823 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_48bit/shor_221674147038989.qasm
+[2026-10-11 09:25:43 UTC] [shor] [submitting] shor_48bit | 10 attempts | 0s
+[2026-10-11 09:25:43 UTC] [zeus] [preprocessing] shor_48bit | 148 qubits | 8,242,823 gates | 0s
+[2026-10-11 09:25:45 UTC] [zeus] [executing] shor_48bit | 10 shots completed | 2s
+[2026-10-11 09:25:46 UTC] [zeus] [aggregation] shor_48bit | 10 shots completed | 3s
+[2026-10-11 09:25:46 UTC] [zeus] [completed] shor_48bit | 10 shots completed | execution 553.984 ms | 3s
+[2026-10-11 09:25:46 UTC] [shor] [factors] shor_48bit | 14155129 × 15660341 = 221674147038989
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 48 | 221674147038989 | 148 | 8242823 | 1 | 553.984 | — | yes |
+
+[2026-10-11 09:25:46 UTC] [shor] [circuit ready] shor_56bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:46 UTC] [shor] [circuit] shor_56bit | 172 qubits | 12,690,289 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_56bit/shor_51096747444892003.qasm
+[2026-10-11 09:25:46 UTC] [shor] [submitting] shor_56bit | 10 attempts | 0s
+[2026-10-11 09:25:47 UTC] [zeus] [preprocessing] shor_56bit | 172 qubits | 12,690,289 gates | 0s
+[2026-10-11 09:25:50 UTC] [zeus] [executing] shor_56bit | 10 shots completed | 3s
+[2026-10-11 09:25:50 UTC] [zeus] [aggregation] shor_56bit | 10 shots completed | 4s
+[2026-10-11 09:25:50 UTC] [zeus] [completed] shor_56bit | 10 shots completed | execution 554.955 ms | 4s
+[2026-10-11 09:25:50 UTC] [shor] [factors] shor_56bit | 205353037 × 248823919 = 51096747444892003
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 56 | 51096747444892003 | 172 | 12690289 | 1 | 554.955 | — | yes |
+
+[2026-10-11 09:25:50 UTC] [shor] [circuit ready] shor_64bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:50 UTC] [shor] [circuit] shor_64bit | 196 qubits | 18,625,853 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_64bit/shor_14979923942189324171.qasm
+[2026-10-11 09:25:50 UTC] [shor] [submitting] shor_64bit | 10 attempts | 0s
+[2026-10-11 09:25:51 UTC] [zeus] [preprocessing] shor_64bit | 196 qubits | 18,625,853 gates | 1s
+[2026-10-11 09:25:55 UTC] [zeus] [executing] shor_64bit | 10 shots completed | 5s
+[2026-10-11 09:25:55 UTC] [zeus] [executing] shor_64bit | 10 shots completed | 5s
+[2026-10-11 09:25:55 UTC] [zeus] [aggregation] shor_64bit | 10 shots completed | 5s
+[2026-10-11 09:25:55 UTC] [zeus] [completed] shor_64bit | 10 shots completed | execution 549.343 ms | 5s
+[2026-10-11 09:25:55 UTC] [shor] [factors] shor_64bit | 3669043397 × 4082787343 = 14979923942189324171
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 64 | 14979923942189324171 | 196 | 18625853 | 1 | 549.343 | — | yes |
+
+[2026-10-11 09:25:55 UTC] [shor] [circuit ready] shor_72bit | loaded from host circuit cache | 0s
+[2026-10-11 09:25:55 UTC] [shor] [circuit] shor_72bit | 220 qubits | 26,037,497 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_72bit/shor_3223144761104755519061.qasm
+[2026-10-11 09:25:55 UTC] [shor] [submitting] shor_72bit | 10 attempts | 0s
+[2026-10-11 09:25:56 UTC] [zeus] [preprocessing] shor_72bit | 220 qubits | 26,037,497 gates | 1s
+[2026-10-11 09:26:00 UTC] [zeus] [preprocessing] shor_72bit | 5s
+[2026-10-11 09:26:02 UTC] [zeus] [executing] shor_72bit | 10 shots completed | 6s
+[2026-10-11 09:26:02 UTC] [zeus] [aggregation] shor_72bit | 10 shots completed | 7s
+[2026-10-11 09:26:02 UTC] [zeus] [completed] shor_72bit | 10 shots completed | execution 549.582 ms | 7s
+[2026-10-11 09:26:02 UTC] [shor] [factors] shor_72bit | 56668658093 × 56877026377 = 3223144761104755519061
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 72 | 3223144761104755519061 | 220 | 26037497 | 1 | 549.582 | — | yes |
+
+[2026-10-11 09:26:02 UTC] [shor] [circuit ready] shor_80bit | loaded from host circuit cache | 0s
+[2026-10-11 09:26:02 UTC] [shor] [circuit] shor_80bit | 244 qubits | 35,245,243 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_80bit/shor_1032351713483218113671551.qasm
+[2026-10-11 09:26:02 UTC] [shor] [submitting] shor_80bit | 10 attempts | 0s
+[2026-10-11 09:26:03 UTC] [zeus] [preprocessing] shor_80bit | 244 qubits | 35,245,243 gates | 1s
+[2026-10-11 09:26:07 UTC] [zeus] [preprocessing] shor_80bit | 5s
+[2026-10-11 09:26:10 UTC] [zeus] [executing] shor_80bit | 10 shots completed | 8s
+[2026-10-11 09:26:10 UTC] [zeus] [aggregation] shor_80bit | 10 shots completed | 8s
+[2026-10-11 09:26:10 UTC] [zeus] [completed] shor_80bit | 10 shots completed | execution 552.226 ms | 8s
+[2026-10-11 09:26:10 UTC] [shor] [factors] shor_80bit | 1009334295029 × 1022804554019 = 1032351713483218113671551
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 80 | 1032351713483218113671551 | 244 | 35245243 | 1 | 552.226 | — | yes |
+
+[2026-10-11 09:26:10 UTC] [shor] [circuit ready] shor_84bit | loaded from host circuit cache | 0s
+[2026-10-11 09:26:10 UTC] [shor] [circuit] shor_84bit | 256 qubits | 40,250,342 gates | QASM: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/shor_84bit/shor_16503807113155763618449753.qasm
+[2026-10-11 09:26:10 UTC] [shor] [submitting] shor_84bit | 10 attempts | 0s
+[2026-10-11 09:26:12 UTC] [zeus] [preprocessing] shor_84bit | 256 qubits | 40,250,342 gates | 1s
+[2026-10-11 09:26:15 UTC] [zeus] [preprocessing] shor_84bit | 5s
+[2026-10-11 09:26:19 UTC] [zeus] [executing] shor_84bit | 10 shots completed | 9s
+[2026-10-11 09:26:19 UTC] [zeus] [aggregation] shor_84bit | 10 shots completed | 9s
+[2026-10-11 09:26:19 UTC] [zeus] [completed] shor_84bit | 10 shots completed | execution 551.694 ms | 9s
+[2026-10-11 09:26:19 UTC] [shor] [factors] shor_84bit | 3798662280499 × 4344636583747 = 16503807113155763618449753
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 84 | 16503807113155763618449753 | 256 | 40250342 | 1 | 551.694 | — | yes |
+
+
+| Integer bits | N | Qubits | Gates | Attempts | Execution time (ms) | Measurement time (ms) | Factor found |
+|---:|---:|---:|---:|---:|---:|---:|:---:|
+| 8 | 143 | 28 | 27274 | 1 | 188.574 | — | yes |
+| 16 | 49447 | 52 | 165623 | 1 | 239.307 | — | yes |
+| 24 | 13423807 | 76 | 670739 | 1 | 553.336 | — | yes |
+| 32 | 3108758101 | 100 | 1690447 | 1 | 552.622 | — | yes |
+| 40 | 827818182343 | 124 | 4951487 | 1 | 502.102 | — | yes |
+| 48 | 221674147038989 | 148 | 8242823 | 1 | 553.984 | — | yes |
+| 56 | 51096747444892003 | 172 | 12690289 | 1 | 554.955 | — | yes |
+| 64 | 14979923942189324171 | 196 | 18625853 | 1 | 549.343 | — | yes |
+| 72 | 3223144761104755519061 | 220 | 26037497 | 1 | 549.582 | — | yes |
+| 80 | 1032351713483218113671551 | 244 | 35245243 | 1 | 552.226 | — | yes |
+| 84 | 16503807113155763618449753 | 256 | 40250342 | 1 | 551.694 | — | yes |
+
+[2026-10-11 09:26:19 UTC] [shor] [finished] table: /home/dynex/Zeus/ZEUS_PRODUCTION_EXT/results/shor_20261011T092532Z-682108/table.md
